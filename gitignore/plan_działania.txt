@@ -1,0 +1,7 @@
+1. Analiza popularności kategorii restauracji w różnych stanach: które kategorie restauracji cieszą się największą popularnością w różnych stanach na podstawie liczby ocen.
+2. Analiza przestrzeni rynku restauracyjnego: ile restauracji już istnieje w każdym stanie i jakie są ich kategorie.
+3. Analiza przedziałów cenowych: przeanalizować, jakie są preferencje ludzi pod kątem przedziałów cenowych w różnych stanach.
+4. Analiza popularnych menu: analiza popularnych menu w różnych kategoriach restauracji może pomóc w zrozumieniu, jakie dania są popularne w poszczególnych stanach.
+5. Analiza specjalności restauracji - trendy w branży restauracyjnej, takie jak rosnące zainteresowanie danymi rodzajami kuchni, dieta wegańska, zrównoważona żywność, itp. Może to pomóc w określeniu, jakie rodzaje restauracji są obecnie najbardziej pożądane przez klientów.
+6. Analiza preferencji klientów - warto zbadać preferencje klientów w różnych stanach i kategoriach restauracji. Można na przykład zbadać, jakie rodzaje kuchni są najczęściej wybierane przez klientów w różnych stanach, co może pomóc w wyborze rodzaju restauracji.
+7. Analiza opinii i ocen - warto zbadać, jakie opinie i oceny otrzymują istniejące już restauracje. Można na przykład porównać średnie oceny restauracji w różnych stanach i kategoriach, aby określić, gdzie znajdują się najlepsze restauracje.
