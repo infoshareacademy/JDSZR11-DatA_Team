@@ -10,7 +10,7 @@
 <title>final_presentation slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -14627,14 +14627,16 @@ div.jp-OutputPrompt {
     init_mathjax();
     </script>
     <!-- End of mathjax configuration --><!-- Reveal Theme -->
-<link rel="stylesheet" href="reveal.js/dist/theme/simple.css" id="theme">
+<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/theme/simple.css" id="theme">
 
 </head>
 
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
 <div class="reveal">
-<div class="slides"><section><section>
+<div class="slides"><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14930,17 +14932,6 @@ Creating dataframes for individual price ranges.</p>
 
 </div>
 
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>States with fewer than 50 restaurants are removed from the dataframe.</p>
-
-</div>
-</div>
-</div>
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -15108,9 +15099,7 @@ Creating dataframes for individual price ranges.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>What may be the conclusion of this analysis?<br>
-Opening an expensive restaurant or a restaurant with moderate prices in a state with a significant predominance of cheap restaurants wouldn't be the best idea. For example in Virginia over 80% of restaurants are cheap.<br>
-A better idea would be to focus on states with a higher percentage of moderate restaurants, e.g. West Virginia (45.22%), Wisconsin (42.20%) or District of Columbia (27.08%).</p>
+<p>In general, what is the distribution of specific price ranges (without division on states)?</p>
 
 </div>
 </div>
@@ -15187,7 +15176,9 @@ A better idea would be to focus on states with a higher percentage of moderate r
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>In general, what is the distribution of specific price ranges (without division on states)?</p>
+<p>What may be the conclusion of this analysis?<br>
+Opening an expensive restaurant or a restaurant with moderate prices in a state with a significant predominance of cheap restaurants wouldn't be the best idea. For example in Virginia over 80% of restaurants are cheap.<br>
+A better idea would be to focus on states with a higher percentage of moderate restaurants, e.g. West Virginia (45.22%), Wisconsin (42.20%) or District of Columbia (27.08%).</p>
 
 </div>
 </div>
@@ -16098,8 +16089,8 @@ require(
       waitSeconds: 15
     },
     [
-      "reveal.js/dist/reveal.js",
-      "reveal.js/plugin/notes/notes.js"
+      "https://unpkg.com/reveal.js@4.0.2/dist/reveal.js",
+      "https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js"
     ],
 
     function(Reveal, RevealNotes){
